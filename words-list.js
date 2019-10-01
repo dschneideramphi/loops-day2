@@ -9,12 +9,8 @@ async function getAPI(word) {
   //API Call
   result = await fetch(`https://api.datamuse.com/words?ml=${word}`)
           .then(res => res.json())
-          .then(
-              (result) => {
+          .then((result) => {
                   return result;
-              },
-              (error) => {
-                  return error;
               }
           );
 
