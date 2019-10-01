@@ -1,0 +1,8 @@
+#containter {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#container div {
+  height: 100px;
+}
