@@ -24,7 +24,7 @@ async function getAPI(word) {
   }
 }
 
-
+//NEED DEVELOPER KEY!
 let key = "120cf60e930e396adc145a3e7d3d9ea688a3d501856112432d09981a40889a39";
 let images;
 
